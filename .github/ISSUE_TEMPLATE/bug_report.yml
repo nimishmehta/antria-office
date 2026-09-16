@@ -1,0 +1,61 @@
+name: Bug report
+description: A skill didn't fire, or the wrong specialists got staffed.
+labels: ["bug"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        The most useful bug report is: the prompt you gave, the roles that got
+        staffed, and the roles you expected. That is usually enough to find the
+        problem.
+
+  - type: textarea
+    id: prompt
+    attributes:
+      label: What did you ask for?
+      description: The exact wording you used. Redact anything confidential.
+      placeholder: Write a launch email for the new pricing page and tighten the wording.
+    validations:
+      required: true
+
+  - type: input
+    id: staffed
+    attributes:
+      label: Which roles got staffed?
+      placeholder: engineer, reviewer
+    validations:
+      required: true
+
+  - type: input
+    id: expected
+    attributes:
+      label: Which roles did you expect?
+      placeholder: copywriter, reviewer
+    validations:
+      required: true
+
+  - type: dropdown
+    id: surface
+    attributes:
+      label: Where were you?
+      options:
+        - Claude Cowork
+        - Claude Code
+    validations:
+      required: true
+
+  - type: textarea
+    id: extra
+    attributes:
+      label: Anything else?
+      description: Whether the skill fired at all, whether naming it directly worked, anything else you noticed.
+
+  - type: checkboxes
+    id: checks
+    attributes:
+      label: Before submitting
+      options:
+        - label: I am on the latest version of the plugin
+          required: true
+        - label: I searched existing issues, including closed ones
+          required: true

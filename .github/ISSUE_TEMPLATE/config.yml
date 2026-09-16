@@ -1,0 +1,8 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Antria — the desktop app built on this harness
+    url: https://github.com/nimishmehta/antria-ai
+    about: If your issue is with the Antria app rather than the plugin, report it there.
+  - name: Report a security concern
+    url: https://github.com/nimishmehta/antria-office/security/advisories/new
+    about: Please report security issues privately, never in a public issue.

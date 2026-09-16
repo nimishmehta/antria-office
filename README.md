@@ -1,5 +1,9 @@
 # Antria Office
 
+[![License: MIT](https://img.shields.io/badge/license-MIT-green.svg)](LICENSE)
+[![Claude Cowork](https://img.shields.io/badge/Claude-Cowork-d97757.svg)](https://claude.com)
+[![Claude Code](https://img.shields.io/badge/Claude-Code-d97757.svg)](https://claude.com/claude-code)
+
 **Turn Claude into a small company.** Describe what you want in plain English. A lead reads the task, staffs the right specialists from a roster of 20, runs the independent work in parallel, and reports back like a colleague — not a terminal.
 
 ```
@@ -110,6 +114,17 @@ A few choices that are deliberate, in case you're adapting this:
 
 ---
 
+## Antria, the desktop app
+
+This plugin is the harness on its own. [**Antria**](https://github.com/nimishmehta/antria-ai)
+is the desktop app built on top of it — the same twenty specialists, plus a real interface,
+your own folders, work that keeps running after you close the lid, and no terminal.
+
+Free, runs on the Claude or Codex plan you already pay for, Mac and Windows.
+
+You don't need it to use this plugin, and you don't need this plugin to use it. They're the
+same office with different front doors.
+
 ## Requirements
 
 Claude Cowork, or Claude Code v2.0 or later. Nothing else.
@@ -120,7 +135,17 @@ In Cowork, skills usually fire automatically from how you phrase a request. In C
 
 ## Contributing
 
-Issues and pull requests welcome — see [CONTRIBUTING.md](CONTRIBUTING.md). The most useful bug report is the prompt you gave, the roles that got staffed, and the roles you expected instead.
+Issues and pull requests welcome — see [CONTRIBUTING.md](CONTRIBUTING.md).
+The most useful bug report is the prompt you gave, the roles that got staffed, and the roles you expected instead.
+
+| | |
+| --- | --- |
+| Report a bug or request a role | [Issues](https://github.com/nimishmehta/antria-office/issues) |
+| Getting help and debugging staffing | [SUPPORT.md](SUPPORT.md) |
+| Contributing | [CONTRIBUTING.md](CONTRIBUTING.md) |
+| Reporting a vulnerability | [SECURITY.md](SECURITY.md) |
+| Ground rules | [CODE_OF_CONDUCT.md](CODE_OF_CONDUCT.md) |
+| Release history | [CHANGELOG.md](CHANGELOG.md) |
 
 ## License
 

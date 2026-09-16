@@ -1,0 +1,47 @@
+name: Feature request
+description: Suggest a new role, or a change to how the office behaves.
+labels: ["enhancement"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        A new role has to earn its place against the option of sharpening an
+        existing one — twenty is already a lot for the lead to choose between.
+        Changes to how an existing role behaves are usually the better path, and
+        are much easier to merge.
+
+  - type: textarea
+    id: gap
+    attributes:
+      label: What work did the office handle badly?
+      description: The real task, and what the current roster produced.
+    validations:
+      required: true
+
+  - type: textarea
+    id: proposal
+    attributes:
+      label: What should happen instead?
+      description: A sharper existing role, a new role, or a change to a skill.
+    validations:
+      required: true
+
+  - type: dropdown
+    id: kind
+    attributes:
+      label: What kind of change is this?
+      options:
+        - Sharpen an existing role
+        - Add a new role
+        - Change a skill's behaviour
+        - Something else
+    validations:
+      required: true
+
+  - type: checkboxes
+    id: checks
+    attributes:
+      label: Before submitting
+      options:
+        - label: I searched existing issues, including closed ones
+          required: true
