@@ -1,0 +1,29 @@
+{
+  "name": "antria-office",
+  "description": "The Antria office harness for Claude \u2014 plain-English delegation to a staffed team of specialists.",
+  "owner": {
+    "name": "Nimish Mehta",
+    "url": "https://antria.ai"
+  },
+  "plugins": [
+    {
+      "name": "antria-office",
+      "source": "./",
+      "description": "Turns Claude into a small company. Describe what you want in plain English and a lead staffs the right specialists from a roster of 20, runs them in parallel, and reports back like a colleague \u2014 not a terminal.",
+      "author": {
+        "name": "Nimish Mehta",
+        "url": "https://antria.ai"
+      },
+      "homepage": "https://antria.ai",
+      "license": "MIT",
+      "category": "productivity",
+      "keywords": [
+        "agents",
+        "delegation",
+        "multi-agent",
+        "non-technical",
+        "plain-english"
+      ]
+    }
+  ]
+}

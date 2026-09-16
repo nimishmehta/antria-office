@@ -1,0 +1,23 @@
+{
+  "name": "antria-office",
+  "version": "0.1.0",
+  "description": "Turns Claude into a small company. Describe what you want in plain English and a lead staffs the right specialists from a roster of 20, runs them in parallel, and reports back like a colleague \u2014 not a terminal.",
+  "author": {
+    "name": "Nimish Mehta",
+    "url": "https://antria.ai"
+  },
+  "homepage": "https://antria.ai",
+  "repository": "https://github.com/nimishmehta/antria-office",
+  "license": "MIT",
+  "keywords": [
+    "agents",
+    "delegation",
+    "multi-agent",
+    "non-technical",
+    "plain-english",
+    "office",
+    "subagents",
+    "founder",
+    "productivity"
+  ]
+}
